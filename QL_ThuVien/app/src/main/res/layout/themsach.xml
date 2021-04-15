@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm Sách"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:layout_gravity="center"></TextView>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã Sách :">
+
+                </TextView>
+                <EditText android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edMasach">
+
+                </EditText>
+            </TableRow>
+
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên sách : ">
+
+                </TextView>
+                <EditText android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edTensach">
+
+                </EditText>
+            </TableRow>
+
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã Loại : ">
+
+                </TextView>
+                <EditText android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Maloai">
+
+                </EditText>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mô tả : ">
+
+                </TextView>
+                <EditText android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Mota">
+
+                </EditText>
+            </TableRow>
+
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hình ảnh : ">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/Hinhanh"
+                    android:layout_width="200dp"
+                    android:layout_height="155dp"></ImageView>
+            </TableRow>
+
+
+        </TableLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:text="Thêm"
+            android:id="@+id/Themsach"></Button>
+    </LinearLayout>
+
+</ScrollView>
